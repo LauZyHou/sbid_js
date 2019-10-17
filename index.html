@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>SBID</title>
+  <script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+  <style>
+    .dv {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      border-radius: 50%;
+      position: absolute;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="dv"></div>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="dv"></div>
+
+  <!-- You can also require other files to run in this process -->
+  <script>
+    require('./renderer.js');
+    require('./js/ui/option/drag.js');
+  </script>
+</body>
+
+</html>

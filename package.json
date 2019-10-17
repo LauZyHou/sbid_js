@@ -1,0 +1,22 @@
+{
+  "name": "sbid",
+  "version": "1.0.0",
+  "description": "SBID is a modeling and verification tool for \"Security: Buit In DNA\".",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/LauZyHou/sbid",
+  "keywords": [
+    "SBID",
+    "Security",
+    "Modeling",
+    "Verification",
+    "Formal method"
+  ],
+  "author": "LauZyHou",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^6.0.12"
+  }
+}
